@@ -27,7 +27,7 @@ def delete_task():
 
 while True:
 
-    print("\n===== TO-DO APPLICATION =====")
+    print("\n===== GIT-TO-DO APPLICATION =====")
     print("1. Add Task")
     print("2. View Tasks")
     print("3. Delete Task")
