@@ -1,11 +1,9 @@
 tasks = []
 
-
 def add_task():
     task = input("Enter task: ")
     tasks.append(task)
     print("Task added successfully!")
-
 
 def view_tasks():
     if len(tasks) == 0:
@@ -15,7 +13,6 @@ def view_tasks():
         for i, task in enumerate(tasks, 1):
             print(f"{i}. {task}")
 
-
 def delete_task():
     view_tasks()
 
@@ -24,9 +21,7 @@ def delete_task():
         tasks.pop(number - 1)
         print("Task deleted successfully!")
 
-
 while True:
-
     print("\n===== GIT-TO-DO APPLICATION =====")
     print("1. Add Task")
     print("2. View Tasks")
