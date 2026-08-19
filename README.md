@@ -4,3 +4,5 @@ Git rebase example
 Added a new feature for Pull Request demo.
 Git rebase example
 main
+
+Triggers Practical implementation is completed!!
